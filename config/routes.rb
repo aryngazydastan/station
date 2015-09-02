@@ -1,11 +1,13 @@
 JqueryRails::Application.routes.draw do
-  match 'comments' => 'comments#create', :via => [:put]
+  
   resources :comments do
     collection do
       get :search
     end
   end
 
+  match 'comments' => 'comments#create', :via => [:put]
+  root :to => "comments#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -56,7 +58,6 @@ JqueryRails::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   # root :to => "welcome#index"
-  root :to => "comments#index"
 
   # See how all your routes lay out with "rake routes"
 
