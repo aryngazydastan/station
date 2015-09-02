@@ -14,7 +14,7 @@ gem 'sunspot_rails'
 gem 'sunspot_solr'
 gem 'pg'
 gem 'heroku'
-gem 'typhoeus'
+#gem 'typhoeus'
 gem 'pry'
 gem 'rspec'
 # Bundle edge Rails instead:
