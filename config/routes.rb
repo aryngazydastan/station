@@ -1,5 +1,5 @@
 JqueryRails::Application.routes.draw do
-  #match 'comments' => 'comments#create', :via => [:put]
+  match 'comments' => 'comments#create', :via => [:put]
   resources :comments do
     collection do
       get :search
