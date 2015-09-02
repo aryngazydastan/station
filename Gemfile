@@ -3,7 +3,7 @@ ruby '2.2.3'
 
 gem 'rails', '~> 4.0'
 #gem 'rails', :git => 'git://github.com/rails/rails', :branch => '3-1-stable'
-gem 'rails_12factor', group: :production
+gem 'rails_12factor'
 gem 'sass'
 gem 'typhoeus'
 gem 'pry'
@@ -12,7 +12,7 @@ gem 'coffee-script'
 gem 'uglifier'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
-gem 'pg', group: :production
+gem 'pg'
 gem 'heroku'
 gem 'puma'
 #gem 'typhoeus'
