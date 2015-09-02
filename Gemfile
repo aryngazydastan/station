@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby '2.2.3'
 
-gem 'rails', '~> 4.0'
+gem 'rails'
 #gem 'rails', :git => 'git://github.com/rails/rails', :branch => '3-1-stable'
 gem 'rails_12factor'
 gem 'sass'
