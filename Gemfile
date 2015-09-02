@@ -15,8 +15,8 @@ gem 'sunspot_solr'
 gem 'pg'
 gem 'heroku'
 #gem 'typhoeus'
-gem 'pry'
-gem 'rspec'
+#gem 'pry'
+#gem 'rspec'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
